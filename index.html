@@ -1,37 +1,51 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Net Ninja Pro - the Book</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Wallik test</title>
 </head>
 <body>
-  <!--  heading tags -->
-  <h1>Boostrap 5 Tutorial</h1>
-  <h2>this is an h2</h2>
-  <h3>this is an h3</h3>
-  <h2 class="h3">this is an 2 with an h3 class</h2>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!--Reboot (default template)-->
+       <!-- 1.1. Default Headings and paragraphs-->
+    <h1> It's me Wallik </h1>
+    <h3> Stand for Saran Pannasuriyaporn</h3>
+    <h6 class="h1"> This is h6 tag with h1 class :)</h6>
+        <!-- 1.2. Display Headings and paragraphs-->
+    <h1 class="display-1"> This is a display class in h1 tag </h1>
+    <h1 class="display-5"> This is a display5 class in h1 tag</h3>
+        <!-- since the tag doesn't matter then just use our standard tag called <p> (paragraph)-->
+    <p class='display-1'> This is paragraph with display-1 class</p>
 
-  <!-- display headings -->
-  <h1 class="display-1">display 1 heading</h1>
-  <h1 class="display-2">display 2 heading</h1>
-  <h1 class="display-6">display 6 heading</h1>
-  <p class="display-1">paragraph with display-1 class</p>
+    <p>I This is simple paragraph </p>
+     <!--2. Lead text : give the space between word or each line ;(good for the text for leading)-->
+    <p class='lead'>This is lead</p>
+    <p class='lead text-center'>This is lead center</p>
+    <p class='lead text-start'>This is lead start (same as just lead)</p>
+    <p class='lead text-end'>This is lead end</p>
+    <!-- 2.2. Decorate text => Bold, strikethrough, underline-->
+    <p class="text-decoration">Decorate this like a cake (default: simple text)</p>
+    <p>I This is simple paragraph </p>       
+    <p class="text-decoration-underline">Decorate this like a cake </p>
+    <p class="text-decoration-line-through">Decorate this like a cake </p>
+    <!--fw known as font weight-->
+    <p class="fw-bold">Decorate this like a cake </p>
+    <p class="fw-900">Font weight 900 [not work]</p>
 
-  <!-- lead text & alignment -->
-  <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-  <p class="lead text-center">hello ninjas</p>
-  <p class="lead text-end">hello ninjas</p>
-  <p class="lead text-start">hello ninjas</p>
+      <!--fs known as font size-->
 
-  <!-- text decoration & font weight -->
-  <p class="text-decoration-underline">this is underlined text</p>
-  <p class="text-decoration-line-through">this is line-through text</p>
-  <p class="fw-bold">this bold text</p>
-  <small>this is small text</small>
-
-  <!-- text colours -->
+    <p class="fs-1">.fs-1 text</p> 
+    <p class="fs-2">.fs-2 text</p> 
+    <p class="fs-3">.fs-3 text</p> 
+    <p class="fs-4">.fs-4 text</p>       
+    <p class="fs-5">.fs-5 text</p>   
+    <p class="fs-6">.fs-6 text</p>   
+    <small>.fs-small text</small>
+    <!-- text colours -->
+    <!--check color in bootstrap five-->>
   <p class="text-primary">theme primary colour</p>
   <p class="text-secondary">theme secondary colour</p>
   <p class="text-info">theme info colour</p>
@@ -40,11 +54,36 @@
   <p class="text-danger">theme danger colour</p>
   <p class="text-muted">theme danger colour</p>
 
-  <!-- bg colors -->
+  <!-- background (bg) colors -->
   <p class="text-white bg-primary">white text on primary bg</p>
   <p class="text-white bg-secondary">white text on secondary bg</p>
   <p class="text-light bg-danger">white text on secondary bg</p>
   
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+<!--I try this myself-->>
+  <blockquote class="blockquote">"Saran said this is great"</blockquote>
+
+
+  <figure>
+    <blockquote class="blockquote">
+      <p>Wallik said this is very delicious.</p>
+    </blockquote>
+    <figcaption class="blockquote-footer">
+      Said <cite title="Source Title">Wallik</cite>
+    </figcaption>
+  </figure>
+
+
+  <figure class="text-center">
+    <blockquote class="blockquote">
+      <p>Live your life no matter what will happen.</p>
+    </blockquote>
+    <figcaption class="blockquote-footer">
+      Said <cite title="Source Title">Saran</cite>
+    </figcaption>
+  </figure>
+
+
+
 </body>
 </html>
