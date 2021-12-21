@@ -1,7 +1,7 @@
 # Lesson 3: Text properties
 
 - Explore various properties of text made by Bootstrap5
-1. header (/<h1>)
+1. header (<<h1>>)
 2. display text 
 3. lead text (the distance between texts)
 4. alignment of text (left, center, right)
