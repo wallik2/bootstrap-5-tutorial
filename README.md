@@ -1,4 +1,4 @@
-# Lesson 5: Explore the utilities of Bootstrap5 
+# Lesson 5: Explore some utilities of Bootstrap5 
 
 - Margin, Padding, Border
 - Font weight, style
