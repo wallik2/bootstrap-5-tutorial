@@ -3,5 +3,7 @@
 - Margin, Padding, Border
 - Font weight, style
 
+*add border & margin of body*
+
 
 See: https://htmlpreview.github.io/?https://github.com/wallik2/bootstrap-5-tutorial/blob/lesson-5/index.html
