@@ -1,4 +1,4 @@
-# Lesson 7: Grid layout & Breakpoints
+# Lesson 7: Grid layout & Breakpoints Part 1
 
 - Explore How to layout the container using row and column
 
