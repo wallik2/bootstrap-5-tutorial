@@ -1,0 +1,6 @@
+# Lesson 7: Grid layout
+
+- Explore How to layout the container using row and column
+
+
+See : https://htmlpreview.github.io/?https://github.com/wallik2/bootstrap-5-tutorial/blob/lesson-6/index.html
